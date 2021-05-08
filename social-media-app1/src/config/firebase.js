@@ -1,7 +1,7 @@
-  
 import firebase from "firebase";
+import 'firebase/auth';
 
-const firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyDVLxNKCoTwthlLkjuAV2AYOjOIwmKnd88",
     authDomain: "social-media-app-7d095.firebaseapp.com",
     databaseURL: "https://social-media-app-7d095.firebaseio.com",

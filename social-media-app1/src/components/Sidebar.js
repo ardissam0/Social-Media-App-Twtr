@@ -1,4 +1,5 @@
 import React from 'react';
+
 import TwitterIcon from "@material-ui/icons/Twitter";
 import SidebarOptions from "./SidebarOptions";
 import HomeIcon from "@material-ui/icons/Home";
@@ -28,7 +29,6 @@ function Sidebar() {
             <SidebarOptions Icon={PermIdentityIcon} text="Profile" />
             <SidebarOptions Icon={MoreHorizIcon} text="More" />
 
-            {/* Button -> Tweet */}
             <Button variant="outlined" className="sidebar__post" fullWidth>
             Post
             </Button>
